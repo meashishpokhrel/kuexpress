@@ -1,0 +1,75 @@
+body{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: cyan;
+    margin: 0;
+    
+
+
+}
+
+#mainbar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: blue;
+    height: 80px;
+    color: ivory;
+    background-image: url(background1.png);
+    
+    
+    
+}
+.content{
+    background-color: brown;
+    background-color: blueviolet;
+    
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 320px;
+    border-radius: 5px;*/
+    padding: 10px;
+    font-size: 20px;
+    width: 1200px;
+    height: 600px;
+    background-color:aquamarine;
+    /*background-image: url(signup.jpg)*/
+
+}
+.sidebar{
+    background-color: brown;
+    background-color: blueviolet;
+    /*margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px; */
+    padding: 20px;
+    font-size: 20px;
+    float: right;
+    width: 750px;
+    background-color:aquamarine;
+    height: 580px;
+    /*background-image: url(signup.jpg);*/
+    
+}
+#bottombar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-image: url(signup.jpg);
+    height: 80px;
+    margin: 0px;
+    padding: 15px;
+
+}
+#username_password
+{
+    color: white;
+   margin-top : 0px;
+  
+    padding-left: 1400px;
+    
+}
