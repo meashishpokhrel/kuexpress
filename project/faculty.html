@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+	<link rel="stylesheet" type="text/css" media="screen" href="studyzone.css" />
+
+<link rel="stylesheet" type="text/css" href="css/light.min.css">
+
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+
+<style>
+
+/**{
+	box-sizing: border-box;
+
+}*/
+h1{
+color: forestgreen;		
+background-color: rgb(230,251,248);
+padding: 2px;
+text-align: center;
+margin-top: 30px;
+height: 60px;
+border-radius: 50px;
+font-size: 40px;
+color: black;
+box-shadow: 3px 3px 3px rgb(12,13,44);
+font-family: 'Aleo', serif;
+
+
+}
+body {
+	margin: 0;
+	background-color: rgb(230,241,248);
+	height: 2500px;
+}
+
+.container{
+
+	font-size: 20px;
+	margin: auto;
+	overflow: auto;
+
+}
+.gallery{
+	margin: 5px;
+	border:1px solid #ccc;
+	float: left;
+	width: 390px;
+
+}
+.gallery img{
+	width: 100%;
+	padding: 5px;
+	height:auto;
+	filter: grayscale(50%);
+	transition: 1s;
+}
+
+.gallery img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+.desc{
+	padding: 15px;
+	text-align: center;
+}
+.schoolofengineering{
+color: forestgreen;		
+background-color: rgb(230,251,248);
+text-align: center;
+padding: 2px;
+margin: 10px ;
+margin-top: 50px;
+border-radius: 10px;
+box-shadow: 3px 3px 3px rgb(12,13,44);
+font-family: 'Aleo', serif;
+height: 1000px;
+}
+.schoolofscience{
+color: forestgreen;		
+background-color: rgb(230,251,248);
+text-align: center;
+padding: 2px;
+margin: 10px ;
+border-radius: 10px;
+box-shadow: 3px 3px 3px rgb(12,13,44);
+font-family: 'Aleo', serif;
+height: 1000px;
+}
+
+
+</style>
+
+<body>
+		<img src="kulogo.png" height="50" width="50"> 
+		<div id="headersection">
+		 
+			<ul>
+					
+				   <!--<p id="topic">KU EXPRESS</p>-->
+				<li><a href="index.php"> Home</li></a>
+				<li><a href=""> Notices</li></a>
+				<li> <a href="studyzone.php">Study Zone</li></a>
+				<li><a href=""> Faculty</li></a>
+				<li><a href="student.php"> Student</li></a>
+				<li><a href="gallery.html">Gallery</li></a>
+				<li> <a href="">About US</li></a>
+			</ul>
+			
+		</div>
+		<h1> Faculty </h1> 
+	
+ <div class="container">
+ 	
+ 		<div class="schoolofengineering"> <h3>School Of Engineering</h3> 
+ 			<div class="gallery">
+ 				<a href="computer/computer.jpg" data-lightbox="mygallery" ><img src="computer/computer.jpg"></a>
+ 					<div class="desc"> <a href="computer.html" style=" text-decoration: none;"> Computer </a> </div>
+ 			</div>
+
+ 			<div class="gallery">
+ 				<a href="civil/civil.jpg" data-lightbox="mygallery" ><img src="civil/civil.jpg"></a>
+ 					<div class="desc"> <a href="civil.html" style=" text-decoration: none;"> Civil </a> </div>
+ 			</div>
+
+		 	<div class="gallery">
+ 				<a href="mechanical/mechanical.jpg" data-lightbox="mygallery" ><img src="mechanical/mechanical.jpg"></a>
+ 					<div class="desc"> <a href="mechanical.html" style=" text-decoration: none;"> Mechanical </a> </div>
+ 			</div>
+
+ 			<div class="gallery">
+ 				<a href="electrical/electrical.JPG" data-lightbox="mygallery" ><img src="electrical/electrical.JPG"></a>
+ 					<div class="desc"> <a href="electrical.html" style=" text-decoration: none;"> Electrical & Electronics </a> </div>
+ 			</div>
+
+ 			<div class="gallery">
+ 				<a href="chemical/chemical.jpg" data-lightbox="mygallery" ><img src="chemical/chemical.jpg"></a>
+ 					<div class="desc"> <a href="chemical.html" style=" text-decoration: none;"> Chemical </a> </div>
+			 </div>
+			 <div class="gallery">
+				<a href="civil/geomatics.jpg" data-lightbox="mygallery" ><img src="civil/geomatics.jpg"></a>
+					<div class="desc"> <a href="geomatics.html" style=" text-decoration: none;"> Geomatics </a> </div>
+			</div>
+
+ 		</div>
+
+
+ 		<br><br><br><br><br>
+
+ 		<div class="schoolofscience"> <h3>School Of Science</h3> 
+
+
+
+ 			<div class="gallery">
+ 				<a href="pharmacy/pharmacy.jpg" data-lightbox="mygallery" ><img src="pharmacy/pharmacy.jpg"></a>
+ 					<div class="desc"> <a href="pharmacy.html" style=" text-decoration: none;"> Pharmacy </a> </div>
+ 			</div>
+
+ 			<div class="gallery">
+ 				<a href="environment/environmental.jpg" data-lightbox="mygallery" ><img src="environment/environmental.jpg"></a>
+ 					<div class="desc"> <a href="environmentalscience.html" style=" text-decoration: none;"> Environmental Science </a> </div>
+ 			</div>
+ 			
+ 			<div class="gallery">
+ 				<a href="biotech/biotech.jpg" data-lightbox="mygallery" ><img src="biotech/biotech.jpg"></a>
+ 					<div class="desc"> <a href="biotech.html" style=" text-decoration: none;"> Bio-Technology </a> </div>
+ 			</div>
+ 		</div>
+
+
+ 	
+ </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
