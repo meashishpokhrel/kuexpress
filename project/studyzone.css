@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Charm|Hanalei+Fill|Monoton|Thasadith');
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+body{
+    
+    font-size: 14px;
+    margin: 0;
+    background-color: skyblue;
+    
+}
+/*======================================for header bar==================================*/
+/*#headersection
+{
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+    
+   
+
+}*/
+
+/*#topic
+{
+    text-align: left;
+    
+}*/
+#headersection ul{
+    
+    list-style-type: none;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    
+   margin: 0%;
+    /*border-radius: 5px;*/
+    background-color: black;
+    color: white;
+}
+#headersection ul li{
+    display: inline;
+    padding: 9px;
+    font-size: 14px;
+    
+}
+
+#headersection ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    color:white;
+    background-color:black;
+    
+}
+#headersection ul li a:hover{
+    color: red;
+    background-color:blue;
+    padding: 20px 7px 24px 7px;
+}
+img{
+    float: left;
+    padding: 6px;   
+}
+
+/*===================================for header bar ends here=================================*/
+
+#accordion section ul{
+    display: none;
+    list-style: none;
+    
+}
+#accordion section a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+#accordion section ul a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#accordion section:target ul{
+    display: block; 
+    
+}
+
+.soe
+{
+    background-image: url(soe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+margin: 0% 20% 0% 20%;
+padding: 25px;
+border-radius: 55px;
+}
+
+.sos
+{
+   /* background-color: green;*/
+   background-image: url(soe.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+   margin: 5% 20% 4% 20%;
+    padding: 25px;
+    border-radius: 55px;
+}
+.heading
+{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    
+
+    font-family: 'Bad Script', cursive;
+
+
+}
+.topics
+{
+color:black;
+font-size: 30px;
+
+text-align: center;
+}
+.sz
+{
+font-size: 20px;
+padding: 20px;
+color: black;
+}

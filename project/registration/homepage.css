@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Charm|Hanalei+Fill|Monoton|Thasadith');
+body{
+    
+    font-size: 14px;
+    margin: 0;
+    background-color: skyblue;
+}
+
+/*#headersection
+{
+    color: white;
+    background-color: black;
+    height: 50px;
+    padding: 10px;
+    
+   
+
+}*/
+
+/*#topic
+{
+    text-align: left;
+    
+}*/
+#headersection ul{
+    
+    list-style-type: none;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    
+   margin: 0%;
+    /*border-radius: 5px;*/
+    background-color: black;
+    color: white;
+}
+#headersection ul li{
+    display: inline;
+    padding: 9px;
+    font-size: 14px;
+    
+}
+
+#headersection ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    color:white;
+    background-color:black;
+    
+}
+#headersection ul li a:hover{
+    color: red;
+    background-color:blue;
+    padding: 20px 7px 24px 7px;
+}
+img{
+    float: left;
+    padding: 6px;
+   
+    
+}
+.kuhomepage
+{
+   
+    margin: 0%;
+    
+    background-image: url(kuhomepageblur.jpg);
+    
+    /*-webkit-filter: blur(5px);*/
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.content1
+{
+    margin: 0%;
+    
+    font-family: 'Charm', cursive;
+    padding: 6% 3% 0% 40% ;
+    color: white;
+    font-size: 35px;
+    -webkit-filter: blur(0px);
+    word-spacing: 50px;
+    
+}
+.content2
+{
+    
+   
+    font-family: 'Hanalei Fill', cursive;
+    padding: 0.005% 0% 0% 38% ;
+   
+    color:yellow;
+    font-size: 110px;
+   /* word-spacing: 40px;*/
+    
+}
+.content3
+{
+    
+   
+    font-family: 'Monoton', cursive;
+    margin: -2% 0% 0% 43% ;
+    color: aquamarine;
+    font-size: 30px;
+    background-color: rgb(0,0,0,0.6);
+    word-spacing: 5px;
+    /*border: 28px;
+    border-color: aquamarine;
+    font-display: opa
+    display: inline-block;;*/
+   /* word-spacing: 40px;*/
+    
+}
+.content4
+{
+    
+   
+    font-family: 'Charm', cursive;
+    padding: 8% 0% 0% 38% ;
+    
+    color: white;
+    font-size: 25px;
+   /* word-spacing: 40px;*/
+    
+}
+/* ============for arrow anime=============================================================================*/
+.box
+{
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.box span
+{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+
+}
+.box span :nth-child(2)
+{
+   animation-delay: -0.2s;
+   
+}
+.box span :nth-child(3)
+{
+   animation-delay: -0.4s;
+    
+}
+@keyframes animate
+{
+    0%
+    { opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+
+    50%
+    { 
+        opacity: 1; 
+        
+    }
+
+    100%
+    { opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    
+    }
+}
+
+
+
+/* ============code ends arrow anime=============================================================================================*/
+
+/*============================ for button==========================================================================================*/
+button{
+    position: absolute;
+    top: 60%;
+    left: 8%;
+    transform: translate(-50%,-50%);
+
+}
+button{
+    background: none;
+    color: #ccc;
+    width: 300px;
+    height: 120px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+button:focus{
+    outline: none;
+
+}
+button::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translate(130px) skewX(15deg);
+
+
+}
+
+button::after{
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, .2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) skewX(-15deg);
+    
+}
+button:hover{
+    background: #338033;
+    cursor: pointer;font-size: 30px;color:yellow;
+
+}
+button:hover::before{
+    transform: translate(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+    font-size: 100px;
+}
+
+/*======================================ends here button==========================================================*/
+
+#frequentlyvisited
+{
+    margin: 1% 60% 1% 1%;
+    
+    width: 350px;
+    height: 860px;
+    padding: 10px 6px 5px 15px;
+    background-color: blue;
+    border-radius: 25px;
+}
+#frequentlyvisited ul li{
+    padding: 5px;
+    font-size: 28px;
+    
+}
+
+#kunotices
+{
+background-color:black;
+margin: -46.8% 60% 1% 22%;
+padding: 10px 6px 5px 15px;
+border-radius: 25px;
+color: white;
+height: 860px;
+width: 820px;
+}
+#kunotices ul li{
+    font-size: 28px;
+padding: 10px;
+}
+
+#kunotices ul li seemore
+{
+    color: blue;
+}
+
+#kuarticles
+{
+background-color: red;
+margin: -46.8% 0% 1% 69%;
+padding: 10px 6px 5px 15px;
+border-radius: 25px;
+height: 860px;
+width: 550px;
+}
+#kuarticles ul li
+{
+    font-size: 28px;
+    padding: 10px;
+}
+/*===========================footer====================*/
+#footer
+{
+    height: 80px;
+    width: 100.7%;
+    background-color: rgba(212, 39, 9, 0.609);
+    text-align: center;
+    margin: -0.75%;
+    color: black;
+
+}
+#footer ul li a{
+    color: black;
+}
+#footer ul li a:hover {
+    color: blue;
+  }
+  
+  /* selected link */
+  #footer ul li a:active {
+    color:yellow;
+  } 
+#footer ul{
+    text-align: center;
+    padding: 8px;
+
+}
+#footer ul li{
+    display: inline;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+#media
+{
+    margin: -5% 0% 0% 0%;
+}
+#media ul li
+{
+    padding: 8px;
+    float: right;
+    font-size: 30px;
+    
+}
+
+
+
+
+
+/*=========================footer closed====================*/
+h1{
+    font-size: 32px;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+/*==================link decoration=============================*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+  /* mouse over link */
+  a:hover {
+    color: yellow;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  } 
+
+  /*===================link decoration==========================*/
