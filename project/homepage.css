@@ -4,7 +4,7 @@ body{
     
     font-size: 14px;
     margin: 0;
-    background-color: skyblue;
+    background-color:skyblue;
 }
 
 /*#headersection
@@ -38,7 +38,7 @@ body{
 #headersection ul li{
     display: inline;
     padding: 9px;
-    font-size: 14px;
+    font-size: 22px;
     
 }
 
@@ -53,7 +53,7 @@ body{
 #headersection ul li a:hover{
     color: red;
     background-color:blue;
-    padding: 20px 7px 24px 7px;
+    padding: 20px 7px 14px 7px;
 }
 img{
     float: left;
@@ -66,7 +66,7 @@ img{
    
    /* margin: 0%;*/     
     
-     background-image: url(kuhomepageblur.jpg);
+     background-image: url(kufacebook.jpg);
     
     /*-webkit-filter: blur(5px);*/
     width: 100%;
@@ -95,7 +95,7 @@ img{
     font-family: 'Hanalei Fill', cursive;
     padding: 0.005% 0% 0% 38% ;
    
-    color:yellow;
+    color: white;
     font-size: 110px;
    /* word-spacing: 40px;*/
     
@@ -257,7 +257,7 @@ button:hover::before{
     width: 350px;
     height: 860px;
     padding: 10px 6px 5px 15px;
-    background-color: blue;
+    background-color: #00b38f;
     border-radius: 25px;
 }
 #frequentlyvisited ul li{
@@ -268,7 +268,7 @@ button:hover::before{
 
 #kunotices
 {
-background-color:black;
+    background-color: #00b38f;
 margin: -46.8% 60% 1% 22%;
 padding: 10px 6px 5px 15px;
 border-radius: 25px;
@@ -288,7 +288,7 @@ padding: 10px;
 
 #kuarticles
 {
-background-color: red;
+    background-color: #00b38f;
 margin: -46.8% 0% 1% 69%;
 padding: 10px 6px 5px 15px;
 border-radius: 25px;
@@ -305,8 +305,7 @@ width: 550px;
 {
     height: 80px;
     width: 100.7%;
-    background-color: rgba(212, 39, 9, 0.609);
-    text-align: center;
+    background-color: skyblue;    text-align: center;
     margin: -0.75%;
     color: black;
 
@@ -367,12 +366,31 @@ a{
 
   /* mouse over link */
   a:hover {
-    color: yellow;
+    color: blue;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    color: black;
   } 
 
   /*===================link decoration==========================*/
+
+#welcomeword
+  {
+color: yellow;
+
+position: absolute;
+left: 100px;
+top: 10px;
+  }
+
+  #logout_word
+  {
+color: green;
+
+position: absolute;
+right: 100px;
+top: 10px;
+  }
+

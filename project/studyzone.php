@@ -7,10 +7,10 @@
                 
                <!--<p id="topic">KU EXPRESS</p>-->
             <li><a href="index.php"> Home</li></a>
-            <li><a href=""> Notices</li></a>
+            <li><a href="project/project.html"> Notices</li></a>
             <li> <a href="studyzone.php">Study Zone</li></a>
             <li><a href="faculty.html"> Faculty</li></a>
-            <li><a href="student.php"> Student</li></a>
+            <li><a href="filter.php"> Student</li></a>
             <li><a href="gallery.html">Gallery</li></a>
             <li> <a href="">About US</li></a>
         </ul>

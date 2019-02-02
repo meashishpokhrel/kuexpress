@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
+
+body { margin: 0; padding: 0; }
+ .buscar-caja { position: absolute; top: 12%; left: 70%; transform: translate(-50%, -50%);
+     background: #2f3640; height: 40px; border-radius: 40px; padding: 10px; }
+     
+     .buscar-caja:hover > .buscar-txt { width: 240px; padding: 0 6px; } .buscar-caja:hover > .buscar-btn { background: white; color: black; } .buscar-btn { color: #e84118; float: right; width: 40px; height: 40px; border-radius: 50%; background: #2f3640; display: flex; justify-content: center; align-items: center; transition: 0.4s; color: white; cursor: pointer; } .buscar-btn > i { font-size: 30px; } .buscar-txt { border: none; background: none; outline: none; float: left; padding: 0; color: white; font-size: 16px; transition: 0.4s; line-height: 40px; width: 0px; font-weight: bold; }
+
+
+
+     table,tr,th,td
+            {
+                border: 1px solid black;
+                
+            }
+            #tabledesign{
+                width: 60%;
+                font-size: 20px;
+                
+                /*text-align: center;*/
+                margin: 3%;
+                
+            }
+
+            #content_search
+            {
+                margin: 2.2% 0% 0% 37%;
+                color: blue;
+
+
+                font-family: 'ZCOOL KuaiLe', cursive;
+
+                font-size: 27px;
+            }
+
+            #enterbutton
+            {
+                margin: -1.5% 0% 0% 79%;
+            }

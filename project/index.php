@@ -27,18 +27,18 @@
      
         <ul>
         <?php  if (isset($_SESSION['username'])) : ?>
-    	<li>Welcome to KU EXPRESS <strong><?php echo $_SESSION['username']; ?></strong></li>
+    	<li id="welcomeword">Welcome <strong><?php echo $_SESSION['username']; ?></strong></li>
     <?php endif ?>
                 
                <!--<p id="topic">KU EXPRESS</p>-->
             <li><a href=""> Home</li></a>
-            <li><a href=""> Notices</li></a>
+            <li><a href="project/project.html"> Notices</li></a>
             <li> <a href="studyzone.php">Study Zone</li></a>
             <li><a href="faculty.html"> Faculty</li></a>
-            <li><a href="student.php"> Student</li></a>
+            <li><a href="filter.php"> Student</li></a>
             <li><a href="gallery.html">Gallery</li></a>
-            <li> <a href="">About US</li></a>
-            <li> <a href="index.php?logout='1'" style="color: red;">logout</a> </li>
+            <li> <a href="aboutus.html">About US</li></a>
+            <li id="logout_word"> <a href="index.php?logout='1'" style="color: red;">logout</a> </li>
 
         </ul>
         
@@ -65,27 +65,27 @@
     <div id="frequentlyvisited">
         <ul>
             <h1> Frequently visited</h1>
-            <li><a href="">Faculty</li></a>
-            <li><a href="">Find Student</li></a>
-            <li> <a href="">Syllabus for End Semester</li></a>
-            <li> <a href="">Study Material</li></a>
-            <li> <a href="">Old Notices</li></a>
+            <li><a href="faculty.html">Faculty</li></a>
+            <li><a href="filter.php">Find Student</li></a>
+            <li> <a href="studyzone.php">Syllabus for End Semester</li></a>
+            <li> <a href="studyzone.php">Study Material</li></a>
+            <li> <a href="project/project.html">Old Notices</li></a>
             <li> <a href="">KU calendar</li></a>
-            <li> <a href="">Contact KU</li></a>
-            <li> <a href="">Teachers INFO</li></a>
+            <li> <a href="contact.html">Contact KU</li></a>
+            <li> <a href="faculty.html">Teachers INFO</li></a>
         </ul>
     </div>
     <div id="kunotices">
         <ul>
         <h1> News And Notices</h1>
-        <li><a href=""> Notice - PhD dissertation of Mr. Khadka is in Central Library ...... [2018-12-25]</li></a>
-        <li><a href="">Notice for Document Verification and admission ME/MTECH Program - 2018 (Dept. of Computer Scien ...... [2018-12-23]</li></a>
-        <li><a href="">Invitation to KULS-42 on Inflatable Rubber Dam at Kathmandu University ...... [2018-12-22]</li></a>
-        <li><a href="">School of Engineering signed Letter of Agreement with NEAEC ......  [2018-12-19]</li></a>
-        <li><a href="">Aviyantaa 2018 and 7th Anniversary of Turbine Testing Lab was held successfully ......  [2018-12-17]</li></a>
-        <li><a href="">DLR Lab team published a research paper in a journal ......  [2018-12-15]</a></li>
-        <li><a href="">Notice for 24th Convocation ( Second Phase) ...... [2018-12-13]</li></a>
-        <li id="seemore"> <a href="">See more </a></li>
+        <li><a href="project/project.html"> CALL FOR IT-MEET VOLUNTEER held at kathmandu university. [01-01-2019 & 02-01-2019]</li></a>
+        <li><a href="project/project.html">One day PYTHON WORKSHOP FOR BEGINEERS. [02-02-2019]</li></a>
+        <li><a href="project/project.html">Vacancy Announcement for Researchers(TTL). [15-11-2018]</li></a>
+        <li><a href="project/project.html">Accomodation HOSTEL  for  girls and boys INTERVIEW.</li></a>
+        <li><a href="project/project.html">Notice for Bus Route for bus students. [03-01-2019 to 11-01-2019].</li></a>
+        <li><a href="project/project.html">ADMISSION OPEN FOR under-graduated ENGINEERING programmes. [08-08-2019 to 13-08-2019]</a></li>
+        <li><a href="project/project.html">One day JAVA WORKSHOP for absolute begineers. [04-03-2019]</li></a>
+        <li id="seemore"> <a href="project/project.html">See more </a></li>
   
     </ul>
     </div>
@@ -93,36 +93,36 @@
         <ul>
         <h1>Students Thought This Week</h1>
         
-            <li><a href="">SQC: What is it Upto?</li></a>
-            <li> <a href="">Changing Rules in KU</li></a>
-            <li> <a href="">Is KU the best UNiversity in Nepal?</li></a>
-            <li> <a href="">Projects in KU</li></a>
-            <li> <a href="">Engineering in KU</li></a>
-            <li> <a href="">Problem with KU mess</li></a>
-            <li> <a href="">KU Hostels</li></a>
+            <li><a href="stdth.html">SWC: What is it Upto?</li></a>
+            <li> <a href="best.html">Changing Rules in KU</li></a>
+            <li> <a href="best.html">Is KU the best UNiversity in Nepal?</li></a>
+            <li> <a href="best.html">Projects in KU</li></a>
+            <li> <a href="engku.html">Engineering in KU</li></a>
+            <li> <a href="kuhostel.html">Problem with KU mess</li></a>
+            <li> <a href="kuhostel.html">KU Hostels</li></a>
            
         </ul>
         You can enter your thoughts,experience and complain here.
         <form action="" method="">
                
-            <textarea placeholder="You can Write Here....." rows="16" cols="70">Say here</textarea></br></br>
-            <input type="button" value="Submit" >
+            <textarea placeholder="You can Write Here....." rows="16" cols="70"></textarea></br></br>
+            <a href="index.php"><input type="button" value="Submit" ></a>
         </form>
     </div>
     <div id="footer">
         <ul >
-            <li  ><a href="">About Kathmandu University </a></li>
+            <li  ><a href="aboutus.html">About Kathmandu University </a></li>
             <li><a href="gallery.html">Gallery </a></li>
-            <li><a href="">Help </a></li>
-            <li><a href="">Contact Us </a></li>
+            <li><a href="project/project1.html">Courses Outline </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
         </ul>
         &copy; Kathmandu University, Dhulikhel, Nepal.
         <div id="media"> 
         <ul>
-            <li><a href=""><i class="fa fa-github" aria-hidden="true"></i> </a></li>
-            <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
-            <li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
-            <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+            <li><a href="https://github.com/meashishpokhrel/kuexpress"><i class="fa fa-github" aria-hidden="true"></i> </a></li>
+            <li><a href="https://twitter.com/0boltar1"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+            <li><a href="https://www.youtube.com/channel/UCebCurEBgQ8BNdrhx-XNM9A"><i class="fa fa-youtube" aria-hidden="true"></i> </a></li>
+            <li><a href="https://www.facebook.com/kathmanduniversity/"><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
         </ul>
     </div>
 

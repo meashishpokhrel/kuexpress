@@ -1,5 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline'); 
+@import url('https://fonts.googleapis.com/css?family=Eater');
+@import url('https://fonts.googleapis.com/css?family=Eater|Freckle+Face');
 
 *{
     margin: 0px;
@@ -7,7 +8,7 @@
   }
   body {
     font-size: 120%;
-    background-image: url(kuhomepageblur.jpg);
+    background-image: url(kulogin.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -15,13 +16,15 @@
   }
   #loginhead
   {
-    color: blue;
+    color: white;
     text-align: center;
-    padding: 40px;
-    font-size: 70px;
+    padding: 20px;
+    font-size: 125px;
+
+    font-family: 'Freckle Face', cursive;
 
 
-    font-family: 'Bungee Inline', cursive;
+
 
 
 
@@ -89,5 +92,4 @@
     background: #dff0d8; 
     border: 1px solid #3c763d;
     margin-bottom: 20px;
-  }
-  
+}
