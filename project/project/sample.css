@@ -1,0 +1,326 @@
+*,
+*::after,
+*::before {
+
+  box-sizing: inherit; }
+html{
+    font-size:62.5%;
+}
+body{
+    font-family:"lato" , Arial, Helvetica, sans-serif;
+    font-weight:400;
+    font-size: 1.8rem;
+    line-height: 2.4;
+    padding:1rem;
+    box-sizing: border-box;
+    background-color:blanchedalmond; 
+    
+    position:relative;
+    background-size:cover;
+}
+.title-name{
+   display:block;
+   font-size:3.5rem;
+   letter-spacing: .2rem;
+   color:purple;
+   background-color:lightcoral;
+   text-align: center;
+   
+
+}
+#min{
+    min-width:50rem;
+}
+.notice{
+    position:absolute;
+    top:7rem;
+    left:0;
+    display:inline-block;
+    color:red;
+    text-transform:uppercase;
+    font-size: 2rem;
+    
+}
+.notice-name{
+    list-style-type:none;
+    animation-name:moveInLeft;
+    animation-duration:1.5s;
+    display:block;
+    position: relative;
+}
+@keyframes moveInLeft{
+    0%{
+        opacity:0;
+        transform: translateX(-4rem) otate(0deg);
+
+    }
+   
+    80%{
+        transform:translateX(2rem);
+    }
+    100%{
+        opacity:1;
+        transform: translateX(0);
+
+    }
+
+}
+.button{
+    position:absolute;
+    font-size:2.5rem;
+    text-transform:uppercase;
+
+}
+
+.ntc:link,
+.ntc:visited{
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    position:relative;
+
+
+}
+.ntc:hover{
+    transform: translateY(-.3rem);
+    
+}
+.ntc:active{
+    transform: translateY(-1px);
+    box-shadow:0 .25rem 0.5rem grey;
+}
+#ntc1,#ntc2,#ntc4,#ntc6,#ntc8{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:61.5rem;
+    height:65rem;
+    position: relative;
+    top:.5rem;
+    left:61rem;
+
+    }
+    #ntc3{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:49.4rem;
+    height:70.9rem;
+    position: relative;
+    top:.5rem;
+    left:73rem;
+
+    }
+  #ntc5{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:54.7rem;
+    height:80rem;
+    position: relative;
+    top:.5rem;
+    left:67.5rem;
+ }   
+  #ntc7{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:60rem;
+    height:77.6rem;
+    position: relative;
+    top:.5rem;
+    left:62.5rem;
+ }
+ #ntc9{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:72rem;
+    height:77.6rem;
+    position: relative;
+    top:.5rem;
+    left:50.5rem;
+ }
+ #ntc10{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:60rem;
+    height:62.8rem;
+    position: relative;
+    top:.5rem;
+    left:62.5rem;
+ }
+ #ntc11{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:60rem;
+    height:79.8rem;
+    position: relative;
+    top:.5rem;
+    left:62.5rem;
+ }
+ #ntc12{
+    display:none;
+    background:floralwhite;
+    border:.1rem solid greenyellow;
+    width:55.7rem;
+    height:72.4rem;
+    position: relative;
+    top:.5rem;
+    left:67rem;
+ }
+#ntc1{
+    background-color: #f0e68c;
+    background-image: url('image/itmeet.jpg') ;
+    background-size:61.4rem 26.1rem;
+    background-repeat:no-repeat;
+}
+#ntc2{
+    background-color:  #f0e68c;
+    background-image: url('image/python\ .jpg');
+    background-size:61.4rem 26.1rem;
+    background-repeat:no-repeat;
+}
+#ntc3{
+    background-color:  #f0e68c;
+    background-image: url('image/ttl.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#ntc4{
+    background-color:  #f0e68c;
+    background-image: url('image/Hostel.jpg');
+    background-repeat:no-repeat;
+}#ntc5{
+    background-color:  #f0e68c;
+    background-image: url('image/route.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#ntc6{
+    background-color:  #f0e68c;
+    background-image: url('image/Admission.jpg');
+    background-size:61.4rem 26.1rem;
+    background-repeat:no-repeat;
+}
+#ntc7{
+    background-color:  #f0e68c;
+    background-image: url('image/adm.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#ntc8{
+    background-color:  #f0e68c;
+    background-image: url('image/java.jpg');
+    background-size:61.4rem 26.1rem;
+    background-repeat:no-repeat;
+}
+#ntc9{
+    background-color:  #f0e68c;
+    background-image: url('image/music.jpg');
+    background-size:cover; 
+    background-repeat:no-repeat;
+}
+#ntc10{
+    background-color:  #f0e68c;
+    background-image: url('image/assistant.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#ntc11{
+    background-color:  #f0e68c;
+    background-image: url('image/mphil.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#ntc12{
+    background-color:  #f0e68c;
+    background-image: url('image/special.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+#btn{
+    text-decoration: none;
+}
+#btn-hide{
+    position: absolute;
+    top:0px;
+    left:59rem;
+    border-radius:1rem;
+    color:red;
+
+}
+
+#btn-hide3{
+    position: absolute;
+    top:0px;
+    left:47rem;
+    border-radius:10rem;
+    color:red;
+
+}
+#btn-hide5{
+    position: absolute;
+    top:0px;
+    left:52rem;
+    border-radius:1rem;
+    color:red;
+
+}
+#btn-hide7{
+    position: absolute;
+    top:0px;
+    left:57.5rem;
+    border-radius:1rem;
+    color:red;
+
+}
+#btn-hide9{
+    position: absolute;
+    top:0px;
+    left:69.5rem;
+    border-radius:1rem;
+    color:red;
+
+}
+#btn-hide10{
+    position: absolute;
+    top:0px;
+    left:57.5rem;
+    border-radius:1rem;
+    color:red;
+
+}
+#btn-hide11{
+    position: absolute;
+    top:0px;
+    left:57.4rem;
+    border-radius:1rem;
+    color:red;
+
+}
+#btn-hide12{
+    position: absolute;
+    top:0px;
+    left:53rem;
+    border-radius:1rem;
+    color:red;
+
+}
+#h1{
+    position: absolute;
+    top:24rem;
+    font-size:2rem;
+    color:red;
+    text-transform:uppercase; 
+}
+#p1{
+    
+    position: absolute;
+    top:26.5rem;
+    font-size:2rem;
+    color:blue;
+    line-height:2rem;
+}

@@ -1,0 +1,89 @@
+html{
+    font-size:62.5%;
+}
+
+body{
+    background-color: wheat;
+
+
+    
+}    
+#min{
+    position: absolute;
+    
+   
+    right: 30%;
+    width:60rem;
+    height:122.5rem;
+    background-color:rgba(255, 140, 0, 0.329); 
+    color:purple;
+    font-size: 1.8rem;
+}
+.title-name{
+    font-size:4rem;
+    text-align: center;
+    text-transform: uppercase;
+    display:block;
+    color:green;
+    background-color:palegoldenrod;
+    margin:.2rem;
+    border:.5rem;
+    position: relative;
+    
+}
+
+.btn{
+   background-color:white;
+   color:red;
+}
+.btn1{
+    position: absolute;
+    left:10rem;
+    background-color:white;
+    color:red;
+    border-radius:2rem;
+    
+}
+.btn:link,
+.btn:visited{
+    
+    text-transform: uppercase;
+    text-decoration: none;
+    position:relative;
+
+
+}
+.btn:hover{
+    transform: translateY(-.3rem);
+    
+}
+.btn:active{
+    transform: translateY(-.1rem);
+    box-shadow:0 .25rem 0.5rem grey;
+}
+#CSE{
+    position:absolute;
+    top:6rem;
+}
+.break{
+    display:block;
+    background-color: aqua;
+    height:1.5rem;
+    
+}
+#EEE{
+    position:absolute;
+    top:27rem;
+}
+#ME{
+    position:absolute;
+    top:48.5rem;
+}
+#CGE{
+    position:absolute;
+    top:73.5rem;
+}
+#CSEG{
+    position:absolute;
+    top:100.5rem;
+}

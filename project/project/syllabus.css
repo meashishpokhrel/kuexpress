@@ -1,0 +1,49 @@
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: sans-serif;
+    font-size:1.1rem;
+    background-color:lemonchiffon;
+    
+}
+table{
+    width:100%;
+}
+table,th,td{
+    border:.2rem solid darkorange;
+    border-collapse:collapse;
+    opacity:0.95;
+    
+}
+th,td{
+    padding:1rem;
+    text-align:center;
+}
+th{
+    background-color: white;
+    color:red;
+}
+td{
+    background-color: whitesmoke;
+}
+#header{
+    background-color: whitesmoke;
+}
+#main{
+    position:absolute;
+    top:0;
+    left:27rem;
+    width:75rem;
+    height:320rem;
+    background-color: rgba(240, 248, 255, 0.548); 
+    color:green;
+    font-size: 1.8rem;
+}
+#h1,#h2{
+    font-size:3rem;
+    background-color: wheat;
+    color: black;
+    text-align: center;
+
+}
